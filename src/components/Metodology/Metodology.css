@@ -1,0 +1,50 @@
+.metodology {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.metodology-header {
+  display: flex;
+  gap: 7rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.metodology-categories {
+  display: flex;
+  gap: 1rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 2rem;
+  color: white;
+  justify-content: space-between;
+  height: 170px;
+}
+
+.category:hover {
+  background: linear-gradient(210.41deg, #0c3dc3 1.14%, #5581fa 100.75%);
+}
+
+.category :nth-child(1) {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding-bottom: 5px;
+}
+.category :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.category :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+}

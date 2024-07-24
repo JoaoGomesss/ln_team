@@ -27,8 +27,8 @@ const Hero = () => {
           </div>
           <div>
             <span>
-              In here we will help you to shape and build your ideal body and
-              live up your life to fullest
+              Ajudo meus alunos a adotarem um estilo de vida saudável e a
+              alcançarem suas melhores versões. Vamos manter a forma juntos!
             </span>
           </div>
         </div>

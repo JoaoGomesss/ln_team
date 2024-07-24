@@ -102,7 +102,7 @@
 .right-h > .btn {
   position: absolute;
   right: 3rem;
-  top: 4rem;
+  top: 3.7rem;
   color: white;
   background-color: var(--gray);
   border-radius: 3rem;
@@ -114,13 +114,13 @@
 
 .hero-image {
   position: absolute;
-  top: 7rem;
+  top: 7.9rem;
   right: 8rem;
   width: 130%;
 }
 .hero-image-back {
   position: absolute;
-  top: 7rem;
+  top: 5rem;
   right: 9rem;
   width: 180%;
   z-index: -1;
