@@ -8,7 +8,7 @@ function Metodology() {
       <div className="metodology-header">
         <span className="stoke-text">Metodologia </span>
         <span>Que gera </span>
-        <span className="stoke-text">Resultados</span>
+        <span className="stoke-text">Transformação</span>
       </div>
 
       <div className="metodology-categories">

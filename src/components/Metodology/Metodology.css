@@ -29,6 +29,7 @@
   color: white;
   justify-content: space-between;
   height: 170px;
+  border-radius: 3px;
 }
 
 .category:hover {
