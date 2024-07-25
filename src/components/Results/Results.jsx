@@ -17,8 +17,8 @@ function Results() {
   const resultsImages = [
     { id: "2", image: image2, description: "Brunno Puonzo" },
     { id: "1", image: image1, description: "Davi Freitas" },
-    { id: "3", image: image3, description: "João Gomes" },
     { id: "4", image: image4, description: "Eduardo Cavalcante" },
+    { id: "3", image: image3, description: "João Gomes" },
   ];
   return (
     <div className="results">
@@ -54,19 +54,19 @@ function Results() {
           <div className="details-r">
             <div>
               <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
-              <span>OVER 140+ EXPERT COACHS</span>
+              <span>Planejamento estratégico</span>
             </div>
             <div>
               <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
-              <span>OVER 140+ EXPERT COACHS</span>
+              <span>Acompanhamento Semanal</span>
             </div>
             <div>
               <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
-              <span>OVER 140+ EXPERT COACHS</span>
+              <span>Dieta individualizada</span>
             </div>
             <div>
               <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
-              <span>OVER 140+ EXPERT COACHS</span>
+              <span>Treino focado no seu objetivo </span>
             </div>
           </div>
         </div>
