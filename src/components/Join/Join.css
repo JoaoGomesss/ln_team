@@ -1,0 +1,25 @@
+.join {
+  display: flex;
+  padding: 0 2rem;
+  gap: 10rem;
+}
+
+.left-j {
+  flex: 1;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.left-j > hr {
+  border: 2px solid #2a62fdfd;
+}
+
+.right-j {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

@@ -12,7 +12,7 @@ function Feedback() {
     <div className="feedback">
       <div className="left-t">
         <span>Feedbacks</span>
-        <span className="stoke-text">Retorno</span>
+        <span className="stoke-text">Depoimento</span>
         <span>dos alunos</span>
         <span>{feedbackData[selected].review}</span>
         <span>
