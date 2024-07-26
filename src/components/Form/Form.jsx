@@ -13,7 +13,9 @@ const GoodForm = () => {
     formState: { errors },
   } = useForm();
 
-  const sendEmail = (data) => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
     emailjs
       .sendForm(
         "service_us27zch",
@@ -90,9 +92,9 @@ const GoodForm = () => {
           className={errors?.profession && "input-error"}
         >
           <option value="0">Selecione seu plano...</option>
-          <option value="developer">Básico</option>
-          <option value="other">Avançado</option>
-          <option value="other">Atleta</option>
+          <option value="basico">Básico</option>
+          <option value="avancado">Avançado</option>
+          <option value="atleta">Atleta</option>
         </select>
 
         {errors?.profession?.type === "validate" && (
@@ -103,7 +105,9 @@ const GoodForm = () => {
       </div>
 
       <div className="form-group">
-        <button onClick={handleSubmit(onSubmit)}>Entrar em contato</button>
+        <button onSubmit={sendEmail} onClick={handleSubmit(onSubmit)}>
+          Entrar em contato
+        </button>
       </div>
     </div>
   );

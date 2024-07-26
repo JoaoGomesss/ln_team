@@ -1,0 +1,16 @@
+.footer-container {
+  position: relative;
+  gap: 10rem;
+}
+
+.right-f {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-f > img {
+  width: 120px;
+  cursor: pointer;
+}
