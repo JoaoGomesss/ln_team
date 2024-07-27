@@ -6,14 +6,21 @@ import "./Hero.css";
 
 import Lucas from "../../assets/l2.png";
 import HeroImage from "../../assets/hero-image-back.png";
+import { motion } from "framer-motion";
 
 const Hero = () => {
+  const transition = { type: "string", duration: 3 };
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
         <div className="the-best-ad">
-          <div></div>
+          <motion.div
+            initial={{ left: "200px" }}
+            whileInView={{ left: "8px" }}
+            transition={{ ...transition, type: "tween" }}
+          ></motion.div>
           <span>O melhor programa para você</span>
         </div>
 
@@ -54,8 +61,16 @@ const Hero = () => {
       </div>
       <div className="right-h">
         <button className="btn">Entre em contato</button>
-
-        <img className="hero-image-back" src={HeroImage} alt="" />
+        <motion.div>
+          <motion.img
+            initial={{ right: "1rem" }}
+            whileInView={{ right: "9rem" }}
+            transition={transition}
+            className="hero-image-back"
+            src={HeroImage}
+            alt=""
+          />
+        </motion.div>
         <img className="hero-image" src={Lucas} alt="" />
 
         <div className="description">

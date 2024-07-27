@@ -11,6 +11,7 @@ function Footer() {
 
       <div className="right-f">
         <img src={Logo} alt="" />
+        <div className="blur footer-blur"></div>
       </div>
     </div>
   );
