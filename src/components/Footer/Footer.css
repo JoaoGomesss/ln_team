@@ -3,14 +3,14 @@
   gap: 10rem;
 }
 
-.right-f {
+.right-fo {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.right-f > img {
+.right-fo > img {
   width: 120px;
   cursor: pointer;
 }

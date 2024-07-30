@@ -6,7 +6,7 @@ import "./Plans.css";
 
 function Plans() {
   return (
-    <div className="plans-container">
+    <div className="plans-container" id="plans">
       <div className="blur plans-blur-1"></div>
       <div className="blur plans-blur-2"></div>
       <div className="plans-header">
@@ -30,7 +30,14 @@ function Plans() {
               ))}
             </div>
 
-            <button className="btn">Comece agora</button>
+            <button className="btn">
+              <a
+                style={{ textDecoration: "none", color: "black" }}
+                href="#join"
+              >
+                Comece agora
+              </a>
+            </button>
           </div>
         ))}
       </div>

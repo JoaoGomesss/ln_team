@@ -21,7 +21,7 @@ function Results() {
     { id: "3", image: image3, description: "João Gomes" },
   ];
   return (
-    <div className="results">
+    <div className="results" id="results">
       <div className="left-r">
         <Swiper
           className="swiper-container"
@@ -53,19 +53,31 @@ function Results() {
 
           <div className="details-r">
             <div>
-              <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
+              <IoMdCheckmarkCircleOutline
+                className="icon-style"
+                style={{ color: "#2a62fdfd" }}
+              />
               <span>Planejamento estratégico</span>
             </div>
             <div>
-              <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
+              <IoMdCheckmarkCircleOutline
+                className="icon-style"
+                style={{ color: "#2a62fdfd" }}
+              />
               <span>Acompanhamento Semanal</span>
             </div>
             <div>
-              <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
-              <span>Dieta individualizada</span>
+              <IoMdCheckmarkCircleOutline
+                className="icon-style"
+                style={{ color: "#2a62fdfd" }}
+              />
+              <span>Dieta especifíca para o aluno</span>
             </div>
             <div>
-              <IoMdCheckmarkCircleOutline style={{ color: "#2a62fdfd" }} />
+              <IoMdCheckmarkCircleOutline
+                className="icon-style"
+                style={{ color: "#2a62fdfd" }}
+              />
               <span>Treino focado no seu objetivo </span>
             </div>
           </div>

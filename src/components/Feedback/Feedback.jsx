@@ -3,14 +3,16 @@ import "./Feedback.css";
 import { feedbackData } from "../../data/feedbackData";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Feedback() {
+  const transition = { type: "spring", duration: 3 };
   const [selected, setSelected] = useState(0);
   const flenght = feedbackData.length;
 
   return (
-    <div className="feedback">
-      <div className="left-t">
+    <div className="feedback" id="feedback">
+      <div className="left-f">
         <span>Feedbacks</span>
         <span className="stoke-text">Depoimento</span>
         <span>dos alunos</span>
@@ -22,10 +24,18 @@ function Feedback() {
           <span> - {feedbackData[selected].status}</span>
         </span>
       </div>
-      <div className="right-t">
+      <div className="right-f">
         <div></div>
         <div></div>
-        <img src={feedbackData[selected].image} alt="" />
+        <motion.img
+          key={selected}
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -100 }}
+          transition={transition}
+          src={feedbackData[selected].image}
+          alt=""
+        />
         <div className="arrows">
           <FaArrowLeft
             style={{ color: "rgba(255, 255, 255, 0.712)" }}

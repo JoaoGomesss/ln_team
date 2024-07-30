@@ -9,7 +9,7 @@ function Footer() {
     <div className="footer-container">
       <hr />
 
-      <div className="right-f">
+      <div className="right-fo">
         <img src={Logo} alt="" />
         <div className="blur footer-blur"></div>
       </div>

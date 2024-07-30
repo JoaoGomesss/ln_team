@@ -88,3 +88,9 @@
 .form-group label {
   margin-bottom: 7px;
 }
+
+@media screen and (max-width: 768px) {
+  .form-group {
+    width: 260px;
+  }
+}

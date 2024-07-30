@@ -76,6 +76,7 @@
 .figures > div > span:nth-of-type(1) {
   color: white;
   font-size: 2rem;
+  text-align: center;
 }
 .figures > div > span:nth-of-type(2) {
   color: var(--gray);
@@ -160,4 +161,102 @@
   width: 22rem;
   height: 30rem;
   left: 0;
+}
+
+.hero-social {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  background-color: var(--darkGrey);
+  width: fit-content;
+  padding: 1rem 2rem;
+  align-items: start;
+  border-radius: 50px;
+  position: absolute;
+  right: 3.4rem;
+  top: 3.2rem;
+}
+.hero-social:hover {
+  background-color: var(--gray);
+  transition: all 500ms ease;
+}
+
+.hero-social a > img {
+  width: 30px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-blur {
+    width: 14rem;
+  }
+
+  .the-best-ad {
+    margin-top: 0.7rem;
+    font-size: small;
+    align-items: center;
+    transform: scale(0.8);
+  }
+
+  .hero-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text > div:nth-of-type(3) {
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .hero-button {
+    justify-content: center;
+  }
+
+  .figures {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .figures > div > span:nth-of-type(1) {
+    font-size: large;
+  }
+  .figures > div > span:nth-of-type(2) {
+    font-size: x-small;
+  }
+
+  .right-h {
+    margin-top: -4rem;
+    position: relative;
+    background: none;
+  }
+  .right-h:nth-child(1) {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-social {
+    padding: 0.5rem 1rem;
+    left: 1rem;
+    top: 6rem;
+  }
+
+  .hero-image {
+    position: relative;
+    width: 15rem;
+    left: 5rem;
+    top: 6rem;
+  }
+
+  .hero-image-back {
+    width: 20rem;
+    left: -2rem;
+    top: 6rem;
+  }
 }

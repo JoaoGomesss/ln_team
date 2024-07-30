@@ -32,6 +32,7 @@
   gap: 2rem;
   padding: 1.5rem;
   width: 15rem;
+  border-radius: 3px;
 }
 
 .plan:nth-child(2) {
@@ -102,4 +103,22 @@
   height: 23rem;
   top: 10rem;
   right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+  }
+
+  .plan:nth-child(2) {
+    transform: none;
+  }
+
+  .plans-header {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+  }
 }
