@@ -2,6 +2,9 @@
 
 Bem-vindo ao repositório do **LN Team**! Este projeto é uma aplicação web desenvolvida com **React**.
 
+![1](https://github.com/user-attachments/assets/2fe62d8f-efd4-474b-8f2a-aa5a5cb80643)
+
+
 ## 📝 Descrição
 
 O **LN Team** é um projeto que utiliza **React** como base para construir uma interface de usuário dinâmica e responsiva. Ele foi inicializado com **Create React App**, permitindo escalabilidade e facilidade de manutenção.
