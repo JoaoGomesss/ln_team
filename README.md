@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# LN Team
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do **LN Team**! Este projeto é uma aplicação web desenvolvida com **React**.
 
-## Available Scripts
+## 📝 Descrição
 
-In the project directory, you can run:
+O **LN Team** é um projeto que utiliza **React** como base para construir uma interface de usuário dinâmica e responsiva. Ele foi inicializado com **Create React App**, permitindo escalabilidade e facilidade de manutenção.
 
-### `npm start`
+## 🚀 Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React** (com Create React App)
+- **CSS** (para estilização)
+- **JavaScript** (lógica e interação)
+- **ESLint** e **Prettier** (para padronização de código)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+```bash
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Configuração do Ambiente de Desenvolvimento
 
-### `npm run build`
+Siga os passos abaixo para configurar e executar o projeto em sua máquina local.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Certifique-se de que você possui as ferramentas abaixo instaladas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Node.js** (versão 18 ou superior)
+- Um gerenciador de pacotes, como **npm** ou **yarn**
 
-### `npm run eject`
+### Passo 1: Clonar o Repositório
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone este repositório para o seu ambiente local:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/JoaoGomesss/ln_team.git
+cd ln_team
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Passo 2: Instalar Dependências
+Instale as dependências do projeto utilizando npm ou yarn:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
+# ou
+yarn install
 
-## Learn More
+### Passo 3: Executar a Aplicação
+Inicie o servidor de desenvolvimento com o comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
+# ou
+yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A aplicação estará disponível em http://localhost:3000.
 
-### Code Splitting
+📦 Scripts Disponíveis
+No diretório do projeto, você pode executar os seguintes scripts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
+Roda o aplicativo em modo de desenvolvimento. Abra http://localhost:3000 para visualizá-lo no navegador. A página será recarregada automaticamente ao fazer alterações no código.
 
-### Analyzing the Bundle Size
+npm test
+Executa os testes no modo interativo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm run build
+Compila o aplicativo para produção na pasta build. Ele otimiza o React para o melhor desempenho e reduz o tamanho dos arquivos.
 
-### Making a Progressive Web App
+npm run eject
+Remove a dependência única de construção. Atenção: essa operação é irreversível.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📚 Estrutura do Projeto
+A estrutura do projeto é organizada da seguinte forma:
 
-### Advanced Configuration
+ln_team/
+├── public/               # Arquivos públicos (favicon, index.html, etc.)
+├── src/                  # Código-fonte principal
+│   ├── components/       # Componentes reutilizáveis
+│   ├── pages/            # Páginas do aplicativo
+│   ├── styles/           # Estilização global e específica
+│   ├── App.js            # Componente principal
+│   ├── index.js          # Arquivo de entrada
+├── .gitignore            # Arquivos e pastas ignorados pelo Git
+├── README.md             # Documentação do projeto
+├── package.json          # Configuração de dependências e scripts do projeto
+├── package-lock.json     # Lockfile do npm
+└── .prettierrc           # Configuração do Prettier
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🤝 Contribuições
+Contribuições são bem-vindas! Siga os passos abaixo para contribuir com o projeto:
 
-### Deployment
+Faça um fork do repositório.
+Crie uma branch para sua feature ou correção (git checkout -b feature/nova-feature).
+Faça os commits das suas alterações (git commit -m 'Adiciona nova feature').
+Suba sua branch (git push origin feature/nova-feature).
+Abra um Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🛡️ Licença
+Este projeto não possui uma licença definida no momento.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📬 Contato
+Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+Email: jowgomes3@gmail.com
